@@ -1,0 +1,36 @@
+# xlsx파일 cvs파일로 변환화여 저장해주기
+# filename = 'subway.xlsx'
+# xlsx = pd.read_excel("subway.xlsx")
+# xlsx.to_csv("subway.csv")
+
+# 첫번째 행을 보여줘
+# print(df.columns)
+
+
+# 두번째 행을 보여줘
+# print(df.iloc[2])
+
+# 특정 열을 보여줘
+# print(df['호선'])
+
+# 특정 열들을 보여줘
+# print(df.loc[:, ['이름', '생년월일']])
+
+# 조건문
+# df[ df['키'] < 170]
+# df[ df['키'] > 180 ][['이름', '키']]
+# df.loc[ df['키'] > 180, '이름': '성별']
+
+# 조건문 활용
+# my_condition = ['플레디스', 'SM']
+# df['소속사'].isin(my_condition)
+
+# 복사
+# copy_df = df.copy()
+
+# 데이터다루기
+# df.describe()
+# df['키'].min()
+# df['키'].max()
+# df['키'].sum()
+# df['키'].mean()
